@@ -1,12 +1,9 @@
 use std::collections::HashMap;
 
 use fxprof_processed_profile::{
-    markers::{
-        MarkerDynamicField, MarkerFieldFormat, MarkerLocation, MarkerSchema,
-        MarkerSchemaField, ProfilerMarker,
-    },
-    CategoryHandle, CategoryPairHandle, CounterHandle, CpuDelta, Frame, FrameFlags, FrameInfo,
-    ProcessHandle, Profile, ReferenceTimestamp, SamplingInterval, StringHandle, Timestamp,
+    MarkerDynamicField, MarkerFieldFormat, MarkerLocation, MarkerSchema, MarkerSchemaField,
+    ProfilerMarker, CategoryHandle, CategoryPairHandle, CounterHandle, CpuDelta, Frame, FrameFlags,
+    FrameInfo, ProcessHandle, Profile, ReferenceTimestamp, SamplingInterval, StringHandle, Timestamp,
 };
 use serde_json::json;
 
