@@ -31,7 +31,7 @@ anyhow = { version = "1.0.98", features = ["backtrace"] }
 bstr = "1.12.0"
 byte-unit = { version = "5.1.6", features = ["serde"] }
 bytes = "1.10.1"
-bumpalo = "3.18.1"
+bumpalo = "3.19.0"
 clap = { version = "4.5.40", features = ["derive", "env"] }
 crossbeam-channel = "0.5.15"
 deserr = { version = "0.6.3", features = ["actix-web"] }
@@ -43,7 +43,7 @@ fst = "0.4.7"
 futures = "0.3.31"
 futures-util = "0.3.31"
 index-scheduler = { path = "../index-scheduler" }
-indexmap = { version = "2.9.0", features = ["serde"] }
+indexmap = { version = "2.10.0", features = ["serde"] }
 is-terminal = "0.4.16"
 itertools = "0.14.0"
 jsonwebtoken = "9.3.1"
@@ -61,10 +61,10 @@ permissive-json-pointer = { path = "../permissive-json-pointer" }
 pin-project-lite = "0.2.16"
 platform-dirs = "0.3.0"
 prometheus = { version = "0.14.0", features = ["process"] }
-rand = "0.8.5"
+rand = "0.9.1"
 rayon = "1.10.0"
 regex = "1.11.1"
-reqwest = { version = "0.12.20", features = [
+reqwest = { version = "0.12.22", features = [
     "rustls-tls",
     "json",
 ], default-features = false }
@@ -88,8 +88,8 @@ time = { version = "0.3.41", features = [
     "parsing",
     "macros",
 ] }
-tokio = { version = "1.45.1", features = ["full"] }
-toml = "0.8.23"
+tokio = { version = "1.46.1", features = ["full"] }
+toml = "0.9.0"
 uuid = { version = "1.17.0", features = ["serde", "v4"] }
 serde_urlencoded = "0.7.1"
 termcolor = "1.4.1"
@@ -99,7 +99,7 @@ tracing-subscriber = { version = "0.3.19", features = ["json"] }
 tracing-trace = { version = "0.1.0", path = "../tracing-trace" }
 tracing-actix-web = "0.7.18"
 build-info = { version = "1.7.0", path = "../build-info" }
-roaring = "0.10.12"
+roaring = "0.11.0"
 mopa-maintained = "0.2.3"
 utoipa = { version = "5.4.0", features = [
     "actix_extras",
@@ -139,7 +139,7 @@ reqwest = { version = "0.12.20", features = [
 sha-1 = { version = "0.10.1", optional = true }
 static-files = { version = "0.2.5", optional = true }
 tempfile = { version = "3.20.0", optional = true }
-zip = { version = "4.1.0", optional = true }
+zip = { version = "4.2.0", optional = true }
 
 [features]
 default = ["meilisearch-types/all-tokenizations", "mini-dashboard"]

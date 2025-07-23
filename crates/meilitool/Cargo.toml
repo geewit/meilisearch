@@ -13,7 +13,7 @@ anyhow = "1.0.98"
 clap = { version = "4.5.40", features = ["derive"] }
 dump = { path = "../dump" }
 file-store = { path = "../file-store" }
-indexmap = { version = "2.9.0", features = ["serde"] }
+indexmap = { version = "2.10.0", features = ["serde"] }
 meilisearch-auth = { path = "../meilisearch-auth" }
 meilisearch-types = { path = "../meilisearch-types" }
 serde = { version = "1.0.219", features = ["derive"] }

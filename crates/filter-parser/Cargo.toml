@@ -18,4 +18,4 @@ unescaper = "0.1.6"
 
 [dev-dependencies]
 # fixed version due to format breakages in v1.40
-insta = "=1.39.0"
+insta = "=1.43.1"
